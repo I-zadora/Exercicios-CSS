@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>Formulário</title>
+    <style>
+        body{
+            color:blue;
+        }
+        h2{
+            color:black;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+    <h2>Área de cadastro</h2>
+    <p style="color:rgb(62, 80, 114)">Preencha com as suas Informações</p>
+    </main>
+    <form action="Informações.html" method="post">
+       <fieldset style="background-color:#ddd;">
+           <legend>Dados pessoais</legend>
+                <section> <!--Informações básicas do usuário-->
+                    <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome">
+                </section>
+                <section> 
+                    <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" name="sobrenome" id="sobrenome"/>
+                </section>
+                <section>
+                    <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email"/>
+                </section>
+                   <label for="telefone">Telefone:</label>
+                     <input type="tel" name="telefone" id="telefone"/>
+                <section>
+                    <label>Data de nascimento</label>
+                    <input type="date">
+                </section>
+        </fieldset>
+        <fieldset style="background-color: #ddd;">
+            <legend>Área pretendida</legend>
+           <section>
+               <label>Em qual área na programação você deseja atuar?</label></br>
+                    <input type="radio" name="programação" value="frontend"/>Front-end</br>
+                    <input type="radio" name="programação" value="backend"/>Back-end</br>
+                    <input type="radio" name="programação" value="fullstack"/>Full Stack</br>
+                    <input type="radio" name="programação" value="nao_sei"/>Não sei</br>
+                    <input  style="background-color:rgb(94, 94, 102)" type="submit" value="realizar cadastro">
+           </section>
+        </fieldset>
+    </form>
+</body>
+</html>
