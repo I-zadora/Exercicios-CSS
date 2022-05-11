@@ -1,0 +1,35 @@
+header{
+    background-color: aqua;
+    color: blue;
+}
+.subtitle{
+    background-color: blue;
+    color: black;
+}
+#identificador{
+    background-color: darkgoldenrod;
+    color:black;
+}
+a:link{
+    color:yellow
+} 
+a:visited{
+    color:red;
+
+}
+a:active{
+    color:green
+
+}
+a[target]{
+    background-color: pink;
+}
+P::first-line{
+    color:rgb(224, 106, 9)
+}
+section h3{
+    background-color: chartreuse;
+}
+div>h3{
+    background-color: crimson;
+}
